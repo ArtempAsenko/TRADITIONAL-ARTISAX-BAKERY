@@ -3,3 +3,21 @@
     padding: 0 15px;
     margin: 0 auto;
 }
+.info-link{
+    color: #FFF;
+    font-family: "Inter";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 200;
+}
+.header{
+    background-image: url(/img/back.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}

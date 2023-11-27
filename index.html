@@ -6,20 +6,21 @@
     <title>Document</title>
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;500;800;900&family=Italiana&display=swap" rel="stylesheet">
 <body>
-    <header><div class="conteiner">
+    <header class="header">
+      <div class="conteiner">
         <div class="navigation">
             <nav class="header-nav">
                 <ul class="info">
-                    <li class="info-item"><a href="#">About us</a></li>
-                    <li class="info-item"><a href="#">Delivery</a></li>
-                    <li class="info-item"><a href="#">Menu</a></li>
-                    <li class="info-item"><a href="#">Contacts</a></li>
-                    <li class="info-item"><a href="#">Reviews</a></li>   
+                    <li class="info-item"><a class="info-link" href="#">About us</a></li>
+                    <li class="info-item"><a class="info-link" href="#">Delivery</a></li>
+                    <li class="info-item"><a class="info-link" href="#">Menu</a></li>
+                    <li class="info-item"><a class="info-link" href="#">Contacts</a></li>
+                    <li class="info-item"><a class="info-link" href="#">Reviews</a></li>   
                 </ul>
             </nav>
            </div>
@@ -41,8 +42,9 @@
            </div>
     </div>
     </header>
-    <main><div class="conteiner">
+    <main>
       <section class="menu">
+        <div class="conteiner">
       <h2>Menu</h2>
       <ul class="menu-list">
       <li class="menu-item"><img class="menu-img" src="./img/bread.webp" alt="Breads"> <h3 class="menu-title">Breads</h3> <button class="menu-button" >Order</button></li>
@@ -50,16 +52,18 @@
       <li class="menu-item"><img class="menu-img" src="./img/pngwing(sec).webp" alt="bekary"> <h3 class="menu-title">Coockies&Pretzels</h3> <button class="menu-button" >Order</button></li>
       <li class="menu-item"><img class="menu-img" src="./img/pngegg(thr).webp" alt="Coockies"> <h3 class="menu-title">Cakes & Capcakes</h3> <button class="menu-button" >Order</button></li>
       </ul>
+    </div>
       </section>
       <section class="quality">
-     <h2 class="quality-title"> Quality our bekary</h2>
+        <div class="conteiner">
+          <h2>Quality our bekary</h2>
      <ul class="quality-list">
-     <li class="quality-item"><img class="quality-img" src="./img/bread.webp" alt="Breads"><h3 class="quality-text">
-      1.Flour with fresh wheat
-      2.New drozzhi
-      3.Fresh eggs
-      4.Water from the well
-    </h3>
+     <li class="quality-item"><img class="quality-img" src="./img/bread.webp" alt="Breads"><ol class="quality-text">
+      <li>Flour with fresh wheat</li> 
+      <li>New drozzhi</li> 
+      <li>Fresh eggs</li> 
+      <li>Water from the well</li>
+     </ol>
   </li>
      <li class="quality-item"><img class="quality-img" src="./img/pngegg(thr).webp" alt="Cockie"><h3 class="quality-text">
       1.Flour with fresh wheat
@@ -76,25 +80,31 @@
     </h3>
   </li>
     </ul>
+  </div>
       </section>
       <section class="bekary">
+        <div class="conteiner">
       <h2 class="bekary-title">Why TRADITIONALARTISAX BAKERY ?</h2>
       <ul class="bekary-list">
         <li class="bekary-item"><img class="bekary-img" src="./img/frame(firs).webp" alt="Order at home"><h3 class="bekary-text">Order at home</h3></li>
         <li class="bekary-item"><img class="bekary-img" src="./img/frame(sec).webp" alt="Fresh food"><h3 class="bekary-text">Fresh food</h3></li>
         <li class="bekary-item"><img class="bekary-img" src="./img/frame(thr).webp" alt="Speed Delivery 24 h"><h3 class="bekary-text">Speed Delivery 24 h</h3></li>
       </ul>
+    </div>
       </section>
       <section class="information">
+        <div class="conteiner">
  <ul>
  <li> <h3 class="where">Where</h3> <img class="map" src="./img/map.webp" alt="map"></li>
  <li> <h3 class="information-text">How</h3> <a href="#" class="number">+38 055 123 13 12</a><p class="social">Tik tok.:@TR.Bekary Inst:@TR.Bekary</p></li>
  <li> <h3 class="information-text">When  </h3> <p class="time">with 8:30 to 20:30</p></li>
 </ul>
+      </div>
       </section>
-    </div>
+    
     </main>
-    <footer><div class="conteiner">
+    <footer>
+      <div class="conteiner">
    <ul class="basement-list">
    <li class="basement-item"><h2 class="basement-title">
     TRADITIONAL ARTISAX BAKERY
@@ -102,21 +112,25 @@
   <p class="basement-text"></p>
 </li>
    <li class="basement-item"><h4 class="basement-text">About</h4><p class="basement-text">
-    About us 
-    Features 
-    News & Blog 
+    <a href="#" class="basement-link">About us </a>
+    <a href="#" class="basement-link">Features </a> 
+    <a href="#" class="basement-link">News & Blog </a>
   </p>
 </li>
-   <li class="basement-item"><h4 class="basement-text">Movement </h4><p class="basement-text">
-    What  Eatly
-    Support Us
-  </p>
+   <li class="basement-item"><h4 class="basement-text">Movement </h4>
+    <div>
+    <a href="#" class="basement-link">
+    What  Eatly</a>
+    <a href="#" class="basement-link">
+    Support Us</a>
+  </div>
+   
 </li>
-   <li class="basement-item"><h4 class="basement-text">Company </h4><p class="basement-text">
-    Why Eatly 
-    Capital
-    Securaty
-  </p>
+   <li class="basement-item"><h4 class="basement-text">Company </h4><div>
+    <a href="#" class="basement-link">Why Eatly</a>
+    <a href="#" class="basement-link">Capital</a>
+    <a href="#" class="basement-link">Securaty</a>
+</div>
 </li>
   </ul>
     </div>

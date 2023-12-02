@@ -55,9 +55,23 @@
 }
 .for-now{
     display: flex;
-    margin-top: 125px;
     margin-bottom: 36px;
+    width: 310px;
+    height: 225px;
+    
 }
-.for-now:nth-last-child(3){
-    margin-top: 128px;
+.title-menu{
+    text-align: center;
+}
+.menu-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+.for-now-item{
+    padding: 104px;
+    margin-top: 215px
+}
+.menu-item{
+    padding-left: 198px;
+   
 }

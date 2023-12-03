@@ -15,6 +15,7 @@
     justify-content: space-between;
     margin-top: 55px;
     margin-bottom: 71px;
+    width: 560px;
 }
 .header-text{
     margin-top: 22px;
@@ -62,12 +63,13 @@
 .menu-list{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 .for-now-item{
     padding: 104px;
     margin-top: 215px
 }
 .menu-item{
-    
-   
+    width: 328px;
+    height: 229px;
 }

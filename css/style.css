@@ -52,24 +52,90 @@
 }
 .for-now{
     display: flex;
-    margin-bottom: 36px;
-    width: 310px;
-    height: 225px;
-    
 }
+
 .title-menu{
     text-align: center;
+    /* color: #FFF; */
+    font-family: "Inter";
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 100;
+
+    
+}  
+.for-now-item{
+    margin-top: 125px; 
+    padding: 104px;
 }
+
 .menu-list{
     display: flex;
     flex-wrap: wrap;
+    padding: 198px;
     justify-content: space-between;
+    text-align: center;
 }
-.for-now-item{
-    padding: 104px;
-    margin-top: 215px
+.menu-button{
+    margin-top: 9px;
+    margin-bottom: 12px;
+    width: 160px;
+    height: 41px;
+    border-radius: 17px;
+    background: #B47B48;
+    color: #FFF;
+    font-family: "Inter";
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
 }
-.menu-item{
+.menu-title{
+    font-family: "Inter";
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.div-menu{
+    border: 1px solid black;
     width: 328px;
-    height: 229px;
+    height: 250px;
 }
+.quality-title{
+    /* color: #FFF; */
+    font-family: "Italiana";
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: right;
+}
+.one{
+    width: 162px;
+    height: 225px;
+}
+.two{
+    width: 215px;
+    height: 225px;
+}
+.thre{
+    width: 235px;
+    height: 225px;
+}
+.back-first{
+    width: 310px;
+    height: 225px;
+    background: #272727;
+}
+.back-first:hover,
+.back-first:focus{
+    background: #EBAD51;
+}
+.for-now-img{
+    background: linear-gradient(81deg, #000 -110.34%, rgba(0, 0, 0, 0.00) 80.32%);
+}
+.div-for-now{
+    float: right;
+}
+

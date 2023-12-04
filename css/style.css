@@ -1,3 +1,6 @@
+button{
+    border: none;
+}
 .conteiner{
     width: 1200px;
     padding: 0 15px;
@@ -13,7 +16,7 @@
 .info{
     display: flex;
     justify-content: space-between;
-    margin-top: 55px;
+    padding-top: 55px;
     margin-bottom: 71px;
     width: 560px;
 }
@@ -52,7 +55,8 @@
 }
 .for-now{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    padding-bottom: 30px; ;
 }
 
 .title-menu{
@@ -67,15 +71,18 @@
 }  
 .for-now-item{
     margin-top: 125px; 
-    padding: 104px;
+    
 }
 
 .menu-list{
     display: flex;
     flex-wrap: wrap;
-    padding: 198px;
+    padding-top: 18px;
+    padding-bottom: 73px;
     justify-content: space-between;
     text-align: center;
+    width: 873px;
+    margin: 0 auto;
 }
 .menu-button{
     margin-top: 9px;
@@ -102,7 +109,7 @@
 .div-menu{
     border: 1px solid #FFF;
     width: 328px;
-    height: 250px;
+   
 }
 .quality-title{
     color: #FFF; 
@@ -111,7 +118,8 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    text-align: right;
+    text-align: center;
+    padding-top: 90px ;
 }
 .one{
     width: 162px;
@@ -122,13 +130,13 @@
     height: 225px;
 }
 .thre{
-    width: 235px;
     height: 225px;
 }
 .back-first{
     width: 310px;
-    height: 225px;
     background: #272727;
+    display: flex;
+    align-items: center;
 }
 .back-first:hover,
 .back-first:focus{
@@ -137,28 +145,41 @@
 .for-now-img{
     background: linear-gradient(81deg, #000 -110.34%, rgba(0, 0, 0, 0.00) 80.32%);
 }
-.div-for-now{
-    float: right;
+.pie{
+    margin-left: -18px;
+    width: 110px;
+
 }
 .quality-text{
-    width: 309px;
-    height: 92px;
-     color: #FFF; 
+    color: #FFF; 
     font-family: "Inter";
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
 }
+.first{
+    padding-top: 104px;
+    margin-bottom: 306px ;
+}
+.second{
+    padding-top: 249px;
+    margin-bottom:  121; 
+    padding-left: 21px;
+}
+.third{
+    padding-top: 288px;
+    margin-bottom: 47px ;
+    padding-left: 67px;
+}
 .quality-div{
-    width: 197.532px;
-    height: 291.475px;
     background: rgba(242, 242, 242, 0.30);
     box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
     backdrop-filter: blur(18px);
 }
 .quality{
     background-color: #202020;
+    
 }
 .quality-list{
     display: flex;
@@ -168,9 +189,8 @@
     background-image: url(../img/back.webp);
     background-repeat: no-repeat;
     background-position: center;
-    width: 1431px;
-    height: 1023px;
     background-size:cover;
+    padding-bottom: 30px;
 }
 .menu{
     background: #202023;
@@ -189,6 +209,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    padding-top: 55px;
 }
 .bekary-text{
     width:  251px;;
@@ -204,6 +225,10 @@
     flex-wrap: wrap;
     justify-content: space-between;
     margin-top: 132px;
+    padding-bottom: 52px;
+}
+.overlay{
+    background: linear-gradient(90deg, #000 8.49%, rgba(3, 3, 3, 0.00) 77.17%);
 }
 .information{
     background-color: #202023;
@@ -219,6 +244,11 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    padding-top: 66px;
+    margin-bottom: 44px;
+}
+.map{
+    padding-bottom: 50px;
 }
 .information-text{
     color: #FFF;
@@ -227,6 +257,14 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    padding-top: 185px;
+    padding-bottom: 49px;
+}
+.s{
+    padding-left: 132px;
+}
+.th{
+    padding-left: 54px;
 }
 .number{
     color: #FFF;
@@ -243,6 +281,13 @@
     font-style: normal;
     font-weight: 300;
     line-height: normal;
+    padding-top: 39px; 
+}
+.div-social{
+    padding-top: 65px;
+}
+.basement-text{
+    padding-top: 40px; ;
 }
 .time{
     color: #FFF;
@@ -277,6 +322,7 @@
     font-weight: 200;
     line-height: normal;
     width: 322.337px;
+    padding-top: 62px;
 }
 .basement-uder-title{
     color: #FFF;
@@ -296,6 +342,10 @@
     line-height: normal;
     width: 142.592px;
 }
+.basement-item{
+    display: flex;
+    flex-direction: column;
+}
 .basement-text{
     color: #FFF;
     font-family: "Inter";
@@ -306,7 +356,7 @@
     width: 119.496px;
 }
 .price{
-    width: 173px;
+    
     color: #FFF;
     font-family: "Inter";
     font-size: 24px;
@@ -332,5 +382,8 @@
     font-style: normal;
     font-weight: 900;
     line-height: normal;
+}
+.menu{
+    padding-top: 21px;
 }
 

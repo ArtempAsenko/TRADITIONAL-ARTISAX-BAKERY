@@ -52,6 +52,7 @@
 }
 .for-now{
     display: flex;
+    justify-content: center;
 }
 
 .title-menu{
@@ -166,6 +167,10 @@
 .header{
     background-image: url(../img/back.webp);
     background-repeat: no-repeat;
+    background-position: center;
+    width: 1431px;
+    height: 1023px;
+    background-size:cover;
 }
 .menu{
     background: #202023;
@@ -173,8 +178,10 @@
 .bekary{
     background-image: url(../img/seed.webp);
     background-repeat:no-repeat ;
-    
+    background-position: center;
+    background-size:cover ;
 }
+
 .bekary-title{
     color: #D9D9D9;
     font-family: "Italiana";
@@ -196,6 +203,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin-top: 132px;
 }
 .information{
     background-color: #202023;
@@ -296,5 +304,33 @@
     font-weight: 300;
     line-height: normal;
     width: 119.496px;
+}
+.price{
+    width: 173px;
+    color: #FFF;
+    font-family: "Inter";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+}
+.name-for-now{
+    color: #FFF;
+    font-family: "Inter";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.for-now-button{
+    width: 79px;
+    height: 34px;
+    background-color: #C85312;
+    color: #FFF;
+    font-family: "Inter";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
 }
 

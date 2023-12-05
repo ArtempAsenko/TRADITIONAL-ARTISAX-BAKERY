@@ -120,6 +120,7 @@ button{
     line-height: normal;
     text-align: center;
     padding-top: 90px ;
+    margin-bottom: -170px;
 }
 .one{
     width: 162px;
@@ -300,6 +301,7 @@ button{
 }
 .footer{
     background-color: #202023;
+    padding-bottom: 44px;
 }
 .basement-list{
     display: flex;
@@ -331,7 +333,8 @@ button{
     font-style: normal;
     font-weight: 300;
     line-height: normal;
-    width: 174.725px;
+    width: 175px;
+    padding-top: 16px;
 }
 .basement-link{
     color: #FFF;
@@ -353,7 +356,16 @@ button{
     font-style: normal;
     font-weight: 300;
     line-height: normal;
-    width: 119.496px;
+    width: 120px;
+    margin-bottom: 41px;
+}
+.riserved{
+    color: #FFF;
+    font-family: "Inter";
+    font-size: 20px;
+    font-weight: 100;
+    text-align: center;
+    margin-top: 86px;
 }
 .price{
     
@@ -387,3 +399,7 @@ button{
     padding-top: 21px;
 }
 
+.footer-link-wrap{
+    display: flex;
+    flex-direction: column;
+}

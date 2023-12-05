@@ -1,5 +1,14 @@
+.info-link:hover,
+.info-link:focus{
+    color: #B47B48;
+}
+.basement-link:hover,
+.basement-link:focus{
+    color: #B47B48;;
+}
 button{
     border: none;
+    cursor: pointer;
 }
 .conteiner{
     width: 1200px;
@@ -71,7 +80,9 @@ button{
 }  
 .for-now-item{
     margin-top: 125px; 
-    
+}
+.img-for-now{
+    height: 225px;
 }
 
 .menu-list{
@@ -185,6 +196,7 @@ button{
 .quality-list{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 .header{
     background-image: url(../img/back.webp);
